@@ -133,7 +133,7 @@ const experiences = [
     company_name: "E-Cell PSIT",
     icon: ecell,
     iconBg: "#383E56",
-    date: "2024 - Present",
+    date: "Aug 2024 - Aug 2025",
     points: [
       "Led team to Top 10 finalists in Smart India Hackathon (SIH) Sept 2024 among 150+ competing teams.",
       "Contributed to technical projects and event organization for entrepreneurship initiatives.",
@@ -146,7 +146,7 @@ const experiences = [
     company_name: "IEEE Student Branch PSIT",
     icon: ieee,
     iconBg: "#E6DEDD",
-    date: "2023 - Present",
+    date: "Dec 2023 - Aug 2024",
     points: [
       "Won 1st place in CodingWars competition among 300+ participants (Feb 2024).",
       "Participated in technical workshops, seminars, and hackathons organized by IEEE.",

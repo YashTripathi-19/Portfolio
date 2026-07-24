@@ -1,4 +1,4 @@
-<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="blueGear" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#1E88E5;stop-opacity:1" />
@@ -10,55 +10,61 @@
     </linearGradient>
   </defs>
   
-  <!-- Large Blue Gear Background -->
-  <circle cx="80" cy="100" r="70" fill="url(#blueGear)"/>
+  <!-- Large Blue Gear Background (doubled size) -->
+  <circle cx="160" cy="200" r="140" fill="url(#blueGear)" stroke="#0D47A1" stroke-width="4"/>
   
-  <!-- Gear teeth (simplified) -->
-  <g fill="url(#blueGear)">
-    <rect x="75" y="25" width="10" height="15" rx="2"/>
-    <rect x="125" y="75" width="15" height="10" rx="2"/>
-    <rect x="75" y="160" width="10" height="15" rx="2"/>
-    <rect x="10" y="95" width="15" height="10" rx="2"/>
+  <!-- Gear teeth (larger and more prominent) -->
+  <g fill="url(#blueGear)" stroke="#0D47A1" stroke-width="2">
+    <rect x="150" y="50" width="20" height="30" rx="4"/>
+    <rect x="250" y="150" width="30" height="20" rx="4"/>
+    <rect x="150" y="320" width="20" height="30" rx="4"/>
+    <rect x="20" y="190" width="30" height="20" rx="4"/>
+    
+    <!-- Additional gear teeth for more detail -->
+    <rect x="210" y="80" width="15" height="25" rx="3" transform="rotate(45 217.5 92.5)"/>
+    <rect x="265" y="235" width="15" height="25" rx="3" transform="rotate(45 272.5 247.5)"/>
+    <rect x="105" y="265" width="15" height="25" rx="3" transform="rotate(-45 112.5 277.5)"/>
+    <rect x="65" y="110" width="15" height="25" rx="3" transform="rotate(-45 72.5 122.5)"/>
   </g>
   
-  <!-- Inner white circle -->
-  <circle cx="80" cy="100" r="55" fill="white"/>
+  <!-- Inner white circle (larger) -->
+  <circle cx="160" cy="200" r="110" fill="white" stroke="#1565C0" stroke-width="3"/>
   
-  <!-- Three people silhouettes (much larger) -->
-  <g fill="url(#redGear)">
+  <!-- Three people silhouettes (much larger and bolder) -->
+  <g fill="url(#redGear)" stroke="#B71C1C" stroke-width="2">
     <!-- Person 1 (left) -->
-    <circle cx="55" cy="90" r="10"/>
-    <ellipse cx="55" cy="115" rx="15" ry="20" />
+    <circle cx="110" cy="180" r="20"/>
+    <ellipse cx="110" cy="230" rx="30" ry="40" />
     
-    <!-- Person 2 (center) -->
-    <circle cx="80" cy="85" r="10"/>
-    <ellipse cx="80" cy="110" rx="15" ry="20" />
+    <!-- Person 2 (center - slightly larger) -->
+    <circle cx="160" cy="170" r="22"/>
+    <ellipse cx="160" cy="220" rx="32" ry="42" />
     
     <!-- Person 3 (right) -->
-    <circle cx="105" cy="90" r="10"/>
-    <ellipse cx="105" cy="115" rx="15" ry="20" />
+    <circle cx="210" cy="180" r="20"/>
+    <ellipse cx="210" cy="230" rx="30" ry="40" />
   </g>
   
-  <!-- Red Gear 1 (top right) -->
-  <circle cx="145" cy="60" r="30" fill="url(#redGear)"/>
-  <g fill="url(#redGear)">
-    <rect x="142" y="25" width="6" height="10" rx="1"/>
-    <rect x="170" y="57" width="10" height="6" rx="1"/>
-    <rect x="142" y="85" width="6" height="10" rx="1"/>
-    <rect x="110" y="57" width="10" height="6" rx="1"/>
+  <!-- Red Gear 1 (top right - larger) -->
+  <circle cx="290" cy="120" r="60" fill="url(#redGear)" stroke="#B71C1C" stroke-width="3"/>
+  <g fill="url(#redGear)" stroke="#B71C1C" stroke-width="2">
+    <rect x="284" y="50" width="12" height="20" rx="2"/>
+    <rect x="340" y="114" width="20" height="12" rx="2"/>
+    <rect x="284" y="170" width="12" height="20" rx="2"/>
+    <rect x="220" y="114" width="20" height="12" rx="2"/>
   </g>
-  <circle cx="145" cy="60" r="18" fill="white"/>
+  <circle cx="290" cy="120" r="36" fill="white" stroke="#B71C1C" stroke-width="2"/>
   
-  <!-- Red Gear 2 (bottom right) with PSIT -->
-  <circle cx="150" cy="130" r="35" fill="url(#redGear)"/>
-  <g fill="url(#redGear)">
-    <rect x="147" y="90" width="6" height="12" rx="1"/>
-    <rect x="182" y="127" width="12" height="6" rx="1"/>
-    <rect x="147" y="163" width="6" height="12" rx="1"/>
-    <rect x="103" y="127" width="12" height="6" rx="1"/>
+  <!-- Red Gear 2 (bottom right - larger with PSIT) -->
+  <circle cx="300" cy="260" r="70" fill="url(#redGear)" stroke="#B71C1C" stroke-width="3"/>
+  <g fill="url(#redGear)" stroke="#B71C1C" stroke-width="2">
+    <rect x="294" y="180" width="12" height="24" rx="2"/>
+    <rect x="364" y="254" width="24" height="12" rx="2"/>
+    <rect x="294" y="326" width="12" height="24" rx="2"/>
+    <rect x="206" y="254" width="24" height="12" rx="2"/>
   </g>
-  <circle cx="150" cy="130" r="22" fill="white"/>
+  <circle cx="300" cy="260" r="44" fill="white" stroke="#B71C1C" stroke-width="2"/>
   
-  <!-- PSIT text (bold and centered) -->
-  <text x="150" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1565C0">PSIT</text>
+  <!-- PSIT text (bold and centered, larger) -->
+  <text x="300" y="274" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1565C0">PSIT</text>
 </svg>
