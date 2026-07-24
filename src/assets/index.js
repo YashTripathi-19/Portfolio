@@ -17,6 +17,10 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import java from "./tech/java.png";
+import go from "./tech/go.png";
+import angular from "./tech/angular.png";
+import postman from "./tech/postman.png";
 
 import carbonsync from "./company/carbonsync.svg";
 import auberon from "./company/auberon.svg";
@@ -48,6 +52,10 @@ export {
   reactjs,
   tailwind,
   typescript,
+  java,
+  go,
+  angular,
+  postman,
   carbonsync,
   auberon,
   ieee,

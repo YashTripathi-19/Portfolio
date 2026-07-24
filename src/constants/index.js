@@ -13,6 +13,10 @@ import {
   mongodb,
   git,
   docker,
+  java,
+  go,
+  angular,
+  postman,
   carbonsync,
   auberon,
   ieee,
@@ -60,6 +64,14 @@ const services = [
 
 const technologies = [
   {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -68,8 +80,24 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Go",
+    icon: go,
   },
   {
     name: "MongoDB",
@@ -84,16 +112,8 @@ const technologies = [
     icon: docker,
   },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
+    name: "Postman",
+    icon: postman,
   },
   {
     name: "Tailwind CSS",
