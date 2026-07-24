@@ -5,7 +5,10 @@ import {
   web,
   javascript,
   typescript,
+  html,
+  css,
   reactjs,
+  tailwind,
   nodejs,
   mongodb,
   git,
@@ -58,6 +61,14 @@ const services = [
 
 const technologies = [
   {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -66,28 +77,32 @@ const technologies = [
     icon: typescript,
   },
   {
-    name: "Java",
-    icon: java,
+    name: "React JS",
+    icon: reactjs,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "Java",
+    icon: java,
   },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Docker",
-    icon: docker,
-  },
-  {
     name: "git",
     icon: git,
+  },
+  {
+    name: "docker",
+    icon: docker,
   },
 ];
 
